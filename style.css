@@ -3,7 +3,7 @@
     padding: 0px;
 }
 #menu-container{
-    background-color: bisque;
+    background-color:rgb(164, 160, 160);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -27,3 +27,31 @@
     color:blue;
     cursor: pointer;
 }
+#banner-img{
+    width: 400px;
+}
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url('/images/background.png'),linear-gradient(45deg,rgb(235, 214, 181),rgb(164, 160, 160));
+}
+#title{
+    font-size: 55px;
+    font-weight: bold;
+}
+#description{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#btn{
+    padding: 10px;
+    font-size: medium;
+    background-color: brown;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
