@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#menu-container{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    background-size: 50px;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+#menu{
+    display: flex;
+}
+#item{
+    padding-right: 20px;
+    font-size: large;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#item:hover{
+    color:blue;
+    cursor: pointer;
+}
