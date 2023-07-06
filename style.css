@@ -21,7 +21,7 @@
     padding-right: 20px;
     font-size: large;
     font-weight: 700;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Times New Roman', Times, serif
 }
 #item:hover{
     color:blue;
@@ -37,7 +37,7 @@
     height: 100vh;
     background-image: url('/images/background.png'),linear-gradient(45deg,rgb(235, 214, 181),rgb(164, 160, 160));
 }
-#title{
+.title{
     font-size: 55px;
     font-weight: bold;
 }
@@ -53,5 +53,39 @@
     cursor: pointer;
     border: none;
     border-radius: 5px;
+}
+#btn2{
+    padding: 10px;
+    font-size: medium;
+    background-color: brown;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+#about-img{
+    width: 400px;
+    padding-left: 30px;
+}
+#about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55vh;
+}
+.about{
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+#about-title{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#about-description{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
