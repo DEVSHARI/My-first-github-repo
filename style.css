@@ -76,7 +76,7 @@
     font-size: 55px;
     font-weight: bold;
     text-align: center;
-    margin-top: 15px;
+    padding-top: 20px;
 }
 #about-title{
     font-size: 30px;
@@ -87,5 +87,10 @@
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-right: 25px;
+    text-align: justify;
+}
+#about-section{
+    background-color: antiquewhite;
 }
 
